@@ -8,13 +8,15 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-area{
     display: flex;
+}
+section{
     margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 80%;
@@ -35,4 +37,28 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+}
+.experiences-developer h1{
+    font-size: 35px;
+}
+#full-stack-web-developer{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
